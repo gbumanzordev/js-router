@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #2c3e50;
+  width: 100vw;
+  height: 100vh;
+  font-size: 16px;
+}
+
+button {
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+}
+
+h1 {
+  margin-bottom: 24px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  margin: 24px 0;
+}
+
+nav > a {
+  color: inherit;
+  margin-right: 16px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+nav > a:hover, nav > a:focus {
+  text-decoration: underline;
+}
